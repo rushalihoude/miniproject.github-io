@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: beige;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    justify-content: center;
+}
+
+.container{
+    /* border: 2px solid bisque; */
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    /* box-shadow: 5px 5px bisque; */
+}
+
+.signin button{
+    background-color: blue;
+}
+
+.blue{
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.special{
+    background-color: blue;
+    color: white;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

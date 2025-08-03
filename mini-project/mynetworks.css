@@ -1,0 +1,224 @@
+header{
+    padding: 10px;
+    background-color: beige;
+}
+
+.blue{
+    color: white;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    font-weight: 48px;
+    text-align: left;
+    justify-content: right;
+}
+
+.network-box{
+    display: block;
+    float: left;
+    height: 300pxpx;
+    width: 200px;
+    /* top: -690px;
+    left: 210px;
+    align-items: center;
+    position: relative; */
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: small;
+
+}
+
+.stat-box {
+    text-align: center;
+}
+h1{
+    font-size: medium;
+}
+h1:hover{
+    color: gray;
+    scale: 1.1;
+}
+
+.show-less:hover{
+    color: grey;
+}
+
+.stat-box .number {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.stat-box .label {
+    font-size: 14px;
+    color: #333;
+}
+
+
+.search{
+    display: flex;
+    top: -601;
+    right: 855;
+    justify-content: center;
+
+}
+
+.align-right{
+    display: flex;
+    justify-content:flex-end;
+    text-align: end;
+    gap: 10px
+}
+
+.invite-container{
+    display: block;
+    float: left;
+    height: 100px;
+    width: 715px;
+    /* top: 100px; */
+    /* left: 210px;
+    align-items: center;
+    position: relative; */
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+.invite-container button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    /* gap: 25px; */
+}
+.invite-container button:hover{
+    background-color: lightsteelblue;
+    transition-duration: 0.5s;
+    scale: 1.1;
+    gap: 50px;
+}
+
+h2:hover{
+    color: blue;
+}
+
+.right:hover{
+    color: grey;
+}
+.invite-container text{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid blanchedalmond;
+    border-radius: 8px;
+    padding: 12px 16px;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 719px;
+    margin-top: 150px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.suggestions-container{
+    display: inline-block;
+    justify-content: center;
+    /* align-items: center; */
+    width: 950px;
+    max-width: 1000px;
+    right: 100px;
+    /* top: -1010px; */
+    margin: 0 auto;
+    margin-top: 10px;
+    right: 90px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    border: 3px solid blanchedalmond;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+    padding: 20px;
+    /* right: -1010px; */
+}
+
+.card{
+    position: relative;
+    /* justify-content: left; */
+    background-color: beige;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    /* margin-top: -20px;
+    right: 10px; */
+    width: 190px;
+    text-align: center;
+    padding: 16px 12px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.card:hover{
+    scale: 1.1;
+}
+
+.connect-btn{
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+    background-color: blue;
+    color: white;
+    /* border: blue; */
+    border: 2px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.connect-btn:hover{
+    background-color: lightsteelblue;
+}
+
+.default{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: lightslategray;
+    border: 1px solid beige;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.close-btn:hover{
+    scale: 1.5;
+}

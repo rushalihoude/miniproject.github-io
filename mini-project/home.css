@@ -1,0 +1,166 @@
+header{
+    padding: 10px;
+    background-color: beige;
+}
+
+
+.container{
+    background-color: blanchedalmond;
+    border: 3px solid blanchedalmond;
+    border-radius: 4px 4px 4px 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+    height: 370px;
+    width: 200px;
+}
+
+.container p1{
+    color: grey;
+}
+
+.container h2:hover{
+    color: blue;
+    transition-duration: 0.5s;
+
+}
+
+.connection{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container1{
+    background-color: blanchedalmond;
+    border: 3px solid beige;
+    border-radius: 4px 4px 4px 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+    height: 100px;
+    width: 200px;
+}
+
+.container2{
+    background-color: blanchedalmond;
+    border: 3px solid beige;
+    border-radius: 4px 4px 4px 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+    height: 200px;
+    width: 200px;
+}
+.container img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+.blue{
+    color: white;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    font-weight: 48px;
+}
+
+.align-right{
+    display: flex;
+    justify-content:flex-end;
+    text-align: end;
+    gap: 10px
+}
+
+.boxmiddle-box{
+    display: block;
+    float: left;
+    width: 400px;
+    top: -690px;
+    left: 210px;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.boxmiddle-box p{
+    display: flex;
+    justify-content:center
+    text-align: center;
+    gap: 100px;
+}
+
+.boxmiddle-box button{
+    width: 400px;
+}
+
+
+hr{
+    top: -610px;
+    left: 210px;
+}
+
+.suggestion{
+    display: block;
+    float: left;
+    width: 400px;
+    top: -690px;
+    left: 210px;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.suggestion img{
+    width: 400px;
+    height: 200px;
+}
+
+p3{
+    color: grey;
+}
+ 
+.suggestion h2:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.news{
+    display: block;
+    float: left;
+    width: 200px;
+    top: -1430px;
+    left: 655px;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.symbol p4{
+    color: lightslategrey;
+    display: block;
+    float: left;
+    width: 200px;
+    top: -1410px;
+    left: 675px;
+    align-items: center;
+    position: relative;
+}
+
+.suggestion button1{
+    display: inline-block;
+    gap: 10px;
+}
+.suggestion button:hover{
+    background-color: grey;
+    transition-duration: 0.5s;
+}
